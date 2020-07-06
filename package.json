@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Fredy Bustos <afredybustos@gmail.com>",
   "bugs": {
-    "url": "https://github.com/fredybustos/til-demo.git"
+    "url": "https://github.com/fredybustos/demo-til.git"
   },
   "dependencies": {
     "gatsby": "^2.23.12",
@@ -40,7 +40,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/fredybustos/til-demo.git#readme",
+  "homepage": "https://github.com/fredybustos/demo-til.git#readme",
   "keywords": [
     "gatsby"
   ],
@@ -48,7 +48,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fredybustos/til-demo.git"
+    "url": "git+https://github.com/fredybustos/demo-til.git"
   },
   "scripts": {
     "build": "gatsby build",

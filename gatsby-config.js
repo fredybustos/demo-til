@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TIL: HOY APRENDÍ`,
+    title: `CODE SNIPPETS`,
     author: {
       name: `Igeniería resuelve`,
     },
@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `TIL: HOY APRENDÍ`,
+        name: `CODE SNIPPETS`,
         short_name: `TIL`,
         start_url: `/`,
         background_color: `#ffffff`,

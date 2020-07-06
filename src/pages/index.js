@@ -18,6 +18,7 @@ const BlogIndex = ({ data, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         const { tag } = node.frontmatter
+        const content = node.html || node.excerpt
         return (
           <article key={node.fields.slug} className="post">
             <header className="header">
@@ -36,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
             <div>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: node.html,
+                  __html: content,
                 }}
               />
               <div className="tag">{tag}</div>
@@ -65,6 +66,7 @@ export const pageQuery = graphql`
             slug
           }
           html
+          excerpt
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

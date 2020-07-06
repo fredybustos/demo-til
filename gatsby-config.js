@@ -5,7 +5,7 @@ module.exports = {
       name: `Igeniería resuelve`,
     },
     description: `Compartir lo que aprendemos en el día a día`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://demo-til.netlify.app/`,
     social: {
       twitter: `https://twitter.com/IngResuelve`,
     },

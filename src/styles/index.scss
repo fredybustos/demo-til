@@ -1,0 +1,80 @@
+body {
+  background: #fff;
+}
+.back {
+  box-shadow: none;
+  font-size: 16px;
+  color: #800080;
+  font-weight: 600;
+}
+
+.title {
+  box-shadow: none;
+  color: inherit;
+  font-size: 32px;
+  color: #082736;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.post {
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.75);
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.title-post {
+  font-size: 1.73286rem;
+  font-weight: 800;
+  color: #007acc;
+}
+
+.author {
+  & > p {
+    margin: 0;
+    padding: 0;
+  }
+  & > a {
+    box-shadow: none;
+  }
+}
+.date {
+  color: #800080;
+}
+.tag {
+  padding: 10px 0;
+  border-top: 1px solid gray;
+  color: #800080;
+}
+.c-error {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 768px) {
+  .post {
+    padding: 30px 40px;
+    margin-bottom: 40px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .title-post {
+    font-size: 2.5rem;
+  }
+}
